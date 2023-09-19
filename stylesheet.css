@@ -1,0 +1,194 @@
+/* stylesheet.css */
+
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg"); 
+    background-size: cover;
+    color: #333; /* Text color */
+}
+
+a:hover
+{
+	color: #ff6600; 
+}
+
+a:visited
+{
+	color: #784B84;
+}
+
+#container 
+{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    opacity: 0.9; 
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#header 
+{
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+}
+
+#header h1 
+{
+    margin: 0;
+    font-size: 36px;
+}
+
+#header img 
+{
+    max-width: 150px;
+    border-radius: 50%; 
+}
+
+
+#main 
+{
+    padding: 50px;
+    overflow: hidden; 
+}
+
+#main h2:not(:first-child)
+{
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+#main p 
+{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main ul, #main ol
+{
+    font-size: 16px;
+    line-height: 1.5;
+    clear: right;
+    background-color: #D3D3D3;
+}
+
+
+#menu 
+{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: #f5f5f5; /* Menu background color */
+}
+
+#menu h2 
+{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#menu ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li 
+{
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#menu a 
+{
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+#menu a:hover 
+{
+    color: #ff6600; 
+}
+
+#favoriteQuote
+{
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1000px;
+}
+
+
+#footer 
+{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+}
+
+
+.custom-table.centered-table  /* based on Henry's table */
+{
+    border: solid 0px #DDEEEE;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+	margin-top: 150px;
+	width: 50%;
+    height: 50%;
+    margin-bottom: 150px;
+}
+
+.custom-table tbody tr:nth-child(odd) /* odd rows */
+{ 
+  background: #D6CFC7;
+}
+  
+.custom-table tbody tr:nth-child(even) /* even rows */
+{
+	background: #3B3C36;
+	color: #D3D3D3;
+ 
+}
+.custom-table thead th /* table head attributes */
+{
+    background-color: #282C35;
+    border: solid 0px;
+    color: #D3D3D3;
+    padding: 10px;
+    text-align: center;        
+}
+
+.custom-table tbody td /* table body */
+{
+    border: solid 0px #EEEEEE;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+caption /* table caption */
+{
+	font: 2rem Arial, sans-serif;
+    padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.skeletor 
+{
+    font: 1.5rem Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.highlight 
+{
+  color: red;
+  font-weight: bold;
+}
